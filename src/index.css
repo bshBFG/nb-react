@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), url('./fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+body {
+  max-width: 100vw;
+  --bgColor: rgb(22, 22, 22);
+  --mainColor: rgb(255, 247, 140);
+  background-color: var(--bgColor);
+  color: var(--mainColor);
+  font-family: Roboto, system-ui, sans-serif;
+}

@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    /* Project options */
+    "target": "es6",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "isolatedModules": true,
+
+    /* Module resolution */
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "paths": {
+      "components/*": [
+        "src/components/*"
+      ]
+    },
+    "moduleResolution": "node",
+    
+    
+    /* Strict checks */
+    "noImplicitAny": false,
+
+    /* Linter Checks*/
+    "noFallthroughCasesInSwitch": true,
+    
+    /* Advanced */
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",
+  ]
+}
