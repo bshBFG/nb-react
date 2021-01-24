@@ -12,7 +12,9 @@
     "test": "jest",
     "test:c": "jest --coverage",
     "test:cs": "serve \"./coverage/lcov-report\" -s",
-    "test:us": "jest --updateSnapshot"
+    "test:us": "jest --updateSnapshot",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,10 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-essentials": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/react": "^6.1.15",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
