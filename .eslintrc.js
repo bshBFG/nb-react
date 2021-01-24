@@ -23,6 +23,7 @@ module.exports = {
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
     'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',
@@ -37,7 +38,11 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['config/**/*'],
+        devDependencies: [
+          'config/**/*',
+          'src/**/*.{spec,test}.{ts,tsx}',
+          '**/*jest-setup.ts',
+        ],
       },
     ],
   },
